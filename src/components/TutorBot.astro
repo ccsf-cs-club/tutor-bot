@@ -1,0 +1,20 @@
+---
+import layout from "@/layouts/layout.astro";
+---
+<form class="p-2 flex flex-col items-center space-y-4">
+  <label for="code">put your code that doesn't work here</label>
+  <textarea
+    name="code"
+    placeholder="12345678901234567890123456789012345678901234567890123456789012345678901234567890"
+    class="textarea textarea-bordered font-mono w-full h-96 max-w-3xl"
+  />
+  <div class="join">
+    <select class="select select-bordered join-item">
+      <option disabled>personas</option>
+      <option selected>error-checking with hints</option>
+      <option>code optimizing buddy</option>
+      <option>fix my code pls</option>
+    </select>
+    <button class="btn join-item">tutor bot go!</button>
+  </div>
+</form>
